@@ -16,7 +16,6 @@ public class Fourteenth {
     public static void main(String[] args) {
         readFile();
         initPolymer();
-        //System.out.println(occurances.entrySet());
         step(10);
         System.out.println("Difference after 10 steps: " + count());
         step(30);
