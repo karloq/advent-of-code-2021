@@ -19,7 +19,7 @@ public class Sixth {
                     Arrays.asList(0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L)));
             for (int dayGroup = 0; dayGroup < Sixth.fishes.size(); dayGroup++) {
                 if (dayGroup == 0) {
-                    if (Sixth.fishes.get(dayGroup) > 0){
+                    if (Sixth.fishes.get(dayGroup) > 0) {
                         fishes_temp.set(6, Sixth.fishes.get(dayGroup));
                         fishes_temp.set(8, fishes_temp.get(8) + Sixth.fishes.get(dayGroup));
                     }
@@ -32,7 +32,7 @@ public class Sixth {
             }
         }
         Long sum = 0L;
-        for (Long total: fishes){
+        for (Long total : fishes) {
             sum = sum + total;
         }
         return sum;

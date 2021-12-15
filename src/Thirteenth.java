@@ -11,40 +11,38 @@ public class Thirteenth {
 
     public static void main(String[] args) {
         readFile();
-        for (int i = 0; i < 1; i++){
+        for (int i = 0; i < 1; i++) {
             fold(i);
         }
         System.out.println("Visible dots after 1 fold: " + dots_list.size());
-        for (int i = 1; i < folds.size(); i++){
+        for (int i = 1; i < folds.size(); i++) {
             fold(i);
         }
         spell();
     }
 
-    private static void spell(){
+    private static void spell() {
         Integer xMax = 0;
         Integer yMax = 0;
-        for(Pair<Integer,Integer> dot: dots_list){
+        for (Pair<Integer, Integer> dot : dots_list) {
             if (dot.getKey() > xMax) xMax = dot.getKey();
             if (dot.getValue() > yMax) yMax = dot.getValue();
         }
-        char[][] output = new char[yMax+1][xMax+1];
+        char[][] output = new char[yMax + 1][xMax + 1];
 
-        for (int row = 0; row < output.length; row++)
-        {
-            for (int col = 0; col < output[row].length; col++)
-            {
+        for (int row = 0; row < output.length; row++) {
+            for (int col = 0; col < output[row].length; col++) {
                 output[row][col] = ' '; //Whatever value you want to set them to
             }
         }
 
-        for(Pair<Integer,Integer> dot: dots_list){
+        for (Pair<Integer, Integer> dot : dots_list) {
             Integer x = dot.getKey();
             Integer y = dot.getValue();
             output[y][x] = '8';
         }
 
-        for(char[] row: output){
+        for (char[] row : output) {
             System.out.println(Arrays.toString(row));
         }
     }
@@ -64,7 +62,7 @@ public class Thirteenth {
                         x -= ((x - foldVal) * 2);
                     }
                     Pair<Integer, Integer> tempPair = new Pair<Integer, Integer>(x, y);
-                    if (!tempDots_list.contains(tempPair)){
+                    if (!tempDots_list.contains(tempPair)) {
                         tempDots_list.add(tempPair);
                     }
                 }
@@ -80,7 +78,7 @@ public class Thirteenth {
                         y -= ((y - foldVal) * 2);
                     }
                     Pair<Integer, Integer> tempPair = new Pair<Integer, Integer>(x, y);
-                    if (!tempDots_list.contains(tempPair)){
+                    if (!tempDots_list.contains(tempPair)) {
                         tempDots_list.add(tempPair);
                     }
                 }
