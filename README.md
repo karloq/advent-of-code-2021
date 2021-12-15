@@ -16,7 +16,7 @@ Note that solutions are the first working solutions and does therefore follow ve
 |10||
 |11||
 |12||
-|13||[Java] src/Thirteenth.java |
+|13||src/Thirteenth.java |
 |14||
 |15||
 |16||
@@ -29,3 +29,4 @@ Note that solutions are the first working solutions and does therefore follow ve
 |23||
 |24||
 |25||
+
