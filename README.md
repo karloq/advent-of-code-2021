@@ -16,7 +16,7 @@ Note that solutions are the first working solutions and does therefore follow ve
 |10||
 |11||
 |12||
-|13||src/Thirteenth.java |
+|13||advent-of-code-2021/src/Thirteenth.java |
 |14||
 |15||
 |16||
