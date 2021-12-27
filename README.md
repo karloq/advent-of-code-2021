@@ -8,7 +8,7 @@ Note that solutions are the first working solutions and does therefore follow ve
 |02|Find final positions of submarine |[Second.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Second.java) |
 |03|Decode binary strings |[Third.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Third.java) |
 |04|Bingo game|[Fourth.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Fourth.java) |
-|05||
+|05|Find crossing lines|[Fifth.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Fifth.java) |
 |06|Simulate lanternfish population size growing exponentially |[Sixth.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Sixth.java) |
 |07|Find solution for optimal aligning of crabs |[Seventh.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Seventh.java) | 
 |08|Decode scrambled seven segment display input |[Eighth.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Eighth.java) |
