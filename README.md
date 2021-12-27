@@ -4,9 +4,9 @@ Note that solutions are the first working solutions and does therefore follow ve
 
 |Day|Description|Solution|
 |---|---|---|
-|01||
-|02||
-|03||
+|01|Compare depths and find increases |[First.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/First.java) |
+|02|Find final positions of submarine |[Second.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Second.java) |
+|03|Decode binary strings |[Third.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Third.java) |
 |04||
 |05||
 |06|Simulate lanternfish population size growing exponentially |[Sixth.java](https://github.com/karloq/advent-of-code-2021/blob/master/src/Sixth.java) |
